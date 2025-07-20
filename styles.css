@@ -1,0 +1,26 @@
+/* Custom Overrides/Extras (Most styles are via Tailwind) */
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* Better sidebar/active indication */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  color: #4B5563;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar-link:hover {
+  background: #f1f5f9;
+  color: #4338ca;
+}
+.sidebar-link.active, .sidebar-link.active:hover {
+  background: #eef2ff;
+  color: #4338ca;
+  font-weight: 600;
+}
