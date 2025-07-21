@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sponsorBtn = document.getElementById('sponsor-btn');
 
   organizerBtn.addEventListener('click', () => {
-    window.location.href = 'index.html';
+    window.location.href = 'index2.html';
   });
 
   sponsorBtn.addEventListener('click', () => {
